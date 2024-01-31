@@ -14,7 +14,7 @@ phases:
       - make jisc.cpp
   post_build:
     commands:
-      - echo Build completed on `date`
+      - echo Build completed on date
 artifacts:
   files:
     - jisc.zip
