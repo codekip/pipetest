@@ -12,6 +12,7 @@ async def download_video(url):
     }
     with yt_dlp.YoutubeDL(ydl_opts) as ydl:
         info = ydl.extract_info(url, download=True)
+        print(info["title"])
 
 
 async def multi():
